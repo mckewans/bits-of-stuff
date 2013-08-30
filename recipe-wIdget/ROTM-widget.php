@@ -3,8 +3,8 @@
  * Plugin Name: Recipe of the month Widget
  * Description: A widget that displays the latest recipe.
  * Version: 1.21
- * Author: D123
- * Author URI: http://direction123.com
+ * Author: Robert Gage-Smith
+ * Author URI: http://www.robgs-online.com
  */
 
 

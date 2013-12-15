@@ -1,0 +1,1 @@
+Simple PHP file uploader - files are saved in a folder with a timestamp

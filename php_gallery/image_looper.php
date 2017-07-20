@@ -1,4 +1,4 @@
-/* Create an image gallery divisible by a set col width - this version hard-codes the spacing but you can use css instead */
+/* Create an image gallery divisible by a set col width - this version hard-codes the spacing but you can use css instead ALSO, using old DB query - update for yourself. */
 
 <table width="508" border="0" cellpadding="0" cellspacing="0" id="thumbs">
 	

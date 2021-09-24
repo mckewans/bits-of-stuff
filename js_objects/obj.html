@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8" >
+<meta name="keywords" content="" >
+<meta name="description" content="" >
+
+<title>Page Title</title>
+
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+<link rel="apple-touch-icon" href="img/favicon.png" /> 
+
+<script type="text/JavaScript">
+		<!--
+		
+		function createAddress(street,city,state,zip) {
+		
+		var obj = new Object();
+		obj.street = street;
+		obj.city = city;
+		obj.state = state;
+		obj.zip = zip;
+		
+		obj.showLabel = function() {
+	
+			//alert(this.street +"\n"+ this.city +"\n"+ this.state +"\n"+ this.zip);
+			
+			document.getElementById("data").innerHTML += this.street +"\n"+ this.city +"\n"+ this.state +"\n"+ this.zip+"<br>";
+		
+		};
+		
+		return obj;
+		
+		}
+					
+//-->
+</script>
+
+
+</head>
+
+<body>
+
+<div id="content">
+<h1>Hello World!</h1>
+<p id="data"></p>
+</div>
+
+<script type="text/javascript">
+<!--
+
+	var JohnAddr = createAddress("123 Lane","Poole","Dorset","BH123LP");
+	var FredAddr = createAddress("4 Buck Road","Poole","Dorset","BH143LM");	
+	var BobAddr = createAddress("12a Sugar Street","Bournemouth","Dorset","BH113LM");	
+
+	JohnAddr.showLabel();
+	FredAddr.showLabel();
+	BobAddr.showLabel();
+
+//-->
+</script>
+
+</body>
+</html>
